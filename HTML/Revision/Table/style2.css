@@ -1,0 +1,13 @@
+
+.ho{
+     border-radius: 20px;
+    border-color:aqua;
+    border-top-color:green;
+    border-bottom-color:rebeccapurple;
+}
+button{
+    color: red;
+    border-radius: 2px;
+    border-color: aquamarine;
+    
+}

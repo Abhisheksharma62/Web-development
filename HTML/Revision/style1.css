@@ -1,0 +1,23 @@
+*{
+    
+}
+h1{
+color:blue;
+text-align: center;
+}
+.hi{
+    border-radius: 25px;
+    border-color: blue;
+    border-top-color:magenta;
+    border-bottom-color: blanchedalmond;
+}
+.cow{
+     
+     text-align: center;
+     border: ;
+     cellspacing: 10px;
+     cellpadding:16px;
+     width: 50%;
+
+}
+
