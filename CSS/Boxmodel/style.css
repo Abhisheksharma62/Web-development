@@ -1,0 +1,87 @@
+*{
+    
+
+}
+#a{
+    width: 500px;
+    border: 1px solid rebeccapurple;
+}
+#h{
+    width: 200px;
+    border: 1px solid red;
+    
+    
+}
+.d{
+    background-color: green;
+    text-align: center;
+    display: inline-block;
+    width: 130px;
+    height: 140px;
+    border: 5px solid red;
+     margin: 20px 20px 20px 20px;
+    padding: 50px; 
+    border-radius: 10px;
+    
+    
+}
+
+span{
+    margin-top: 5px; 
+    padding-top: 15px;
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    height: 50px;
+    border: 1px solid red;
+}
+button{
+background-color: antiquewhite;
+    margin: 30px 2px;
+    color: blue;
+    border-radius: 8px;
+    border: 2px solid red;
+    box-shadow: 5px 2px 5px rgb(248, 115, 215);
+   
+}
+button:hover{
+    background-color: bisque;
+    color:rgb(18, 232, 146);
+
+}
+button:active{
+    background-color: blueviolet;
+}
+#hi{
+    margin-left: 100px;
+    background-color: blue;
+}
+#ho{
+    background-color: chocolate;
+}
+#hol{
+background-color:rgb(246, 22, 205);
+}
+#loh{
+background-color: darkseagreen;
+}
+#b{
+    
+   text-decoration: dashed;
+    background-color: aqua;
+    text-align: center;
+     width: 100%;
+    border: 1px solid green;
+    margin-left: 5px;
+    
+}
+/* #o{
+     border: 2px solid black;
+    display: flex;
+    height: 200px;
+    /* gap: 50px; */
+    /* justify-content: baseline; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around;
+align-items: center; */
+} */

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+background-color: aqua;
+padding: 5px 15px;
+ display: flex; 
+justify-content: space-between;
+ align-items: center; 
+position: sticky;
+top: 9px;
+}
+#menu-items{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+} 
+#menu-items button{
+    padding: 5px 10px;
+    background-color: rgb(red green blue / alpha);
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#ask-me{
+    padding: 5px 10px;
+    background-color: rgb(red green blue / alpha);
+    border: 1px solid green;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+ button:hover{
+     color: blue;
+    background-color:gold;
+}
+button:active{
+    color: blueviolet;
+    background-color: blueviolet;
+}
+#menu-items button:hover{
+    color: blue;
+    background-color:gold;
+
+}
+#menu-items button :active{
+    color: bisque;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color:aquamarine;
+    color: brown;
+}

@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div id="outer">
+      <div class="d">Basic HTML</div>
+      <div class="d">Basic Table</div>
+      <div class="d">Basic List</div>
+      <div class="d">Basic Form</div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div id="grid-outer">
+      <div class="gd">a</div>
+      <div class="gd">b</div>
+      <div class="gd">c</div>
+      <div class="gd">d</div>
+      <div class="gd">e</div>
+      <div class="gd">f</div>
+      <div class="gd">g</div>
+      <div class="gd">h</div>
+      <div class="gd">i</div>
+      <div class="gd">j</div>
+    </div>
+    <hr />
+    <hr /> -->
+    <fieldset>
+      <legend>Personal Details</legend>
+      <div class="personal-outer">
+        <label for="fullName">Applicant Full Name</label>
+        <div>
+          <select name="" id="">
+            <option value="">--select--</option>
+            <option value="">Mr.</option>
+            <option value="">Mrs.</option>
+          </select>
+          <input type="text" />
+        </div>
+        <div class="personal-outer">
+          <label for="fullName">Care Of</label>
+          <div>
+            <label for="parents">Parents</label>
+            <input type="radio" id="gurdian" name="gurdian" />
+            <label for="parents">Gurdian</label>
+            <input type="radio" id="gurdian" name="gurdian" />
+          </div>
+        </div>
+      </div>
+      <div class="personal-outer">
+        <label for="fullName">Father's Name</label>
+        <div>
+          <select name="" id="">
+            <option value="">--select--</option>
+            <option value="Mr">Mr.</option>
+          </select>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="personal-outer">
+          <label for="fullName">Mother's Name</label>
+          <div>
+            <select name="" id="">
+              <option value="">--select--</option>
+              <option value="Mr">Mrs.</option>
+            </select>
+            <input type="text" id="name" name="name" />
+          </div>
+        </div>
+      </div>
+      <div class="personal-outer">
+        <label for="gender">Gender</label>
+        <div>
+          <label for="gender">Male</label>
+          <input type="radio" id="gender" name="gender" />
+          <label for="gender">Female</label>
+          <input type="radio" id="gender" name="gender" />
+          <label for="gender">Others</label>
+          <input type="radio" id="gender" name="gender" />
+        </div>
+        <div class="personal-outer">
+          <label for="date">Date of Birth</label>
+          <div>
+            <input type="date" />
+          </div>
+        </div>
+      </div>
+      <div class="personal-outer">
+        <label for="married">Martial Status</label>
+        <div>
+          <select>
+            <option value="">-Select--</option>
+            <option value="Married">Married</option>
+            <option value="Unmarried">Unmarried</option>
+          </select>
+        </div>
+        <div class="personal-outer">
+          <label for="cate">Category</label>
+          <div>
+            <select>
+              <option value="">-Select--</option>
+              <option value="General">General</option>
+              <option value="OBC">OBC</option>
+              <option value="st/st">SC/ST</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="personal-outer">
+        <label for="handicapped">Handicapped</label>
+        <div>
+          <label for="handicapped">No</label>
+          <input type="radio" id="handicapped" name="handicapped" />
+          <label for="handicapped">Yes</label>
+          <input type="radio" id="handicapped" name="handicapped" />
+        </div>
+        <div class="personal-outer">
+          <label for="serviceman">Ex-serviceman</label>
+          <div>
+            <label for="serviceman">No</label>
+            <input type="radio" id="serviceman" name="serviceman" />
+            <label for="serviceman">Yes</label>
+            <input type="radio" id="serviceman" name="serviceman" />
+          </div>
+        </div>
+      </div>
+      <div class="personal-outer">
+        <label for="ews">EWS</label>
+        <div>
+          <label for="ews">No</label>
+          <input type="radio" id="ews" name="ews" />
+          <label for="ews">Yes</label>
+          <input type="radio" id="ews" name="ews" />
+        </div>
+        <div class="personal-outer">
+          <label for="religion">Religion</label>
+          <div>
+            <select>
+              <option value="">-Select--</option>
+              <option value="Hindu">Hindu</option>
+              <option value="muslim">Muslim</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Contact Details</legend>
+      <div class="personal-outer">
+        <label for="number">Mobile Number</label>
+        <div>
+          <input type="number" />
+        </div>
+        <div class="personal-outer">
+          <label for="email">Email ID</label>
+          <div>
+            <input type="email" />
+          </div>
+        </div>
+      </div>
+      <div class="personal-outer">
+        <label for="Address Line1">Address Line1</label>
+        <div>
+          <input type="text" name="" value="" />
+        </div>
+        <div class="personal-outer">
+          <label for="Address Line2">Address Line2</label>
+          <div>
+            <input type="text" />
+          </div>
+        </div>
+      </div>
+      <div class="personal-outer">
+        <label for="City">City</label>
+        <div>
+          <input type="text" />
+        </div>
+        <div class="personal-outer">
+          <label for="State">State</label>
+          <div>
+            <select>
+              <option value="">-Select--</option>
+              <option value="Bihar">Bihar</option>
+              <option value="MP">MP</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="personal-outer">
+        <label for="pincode">Pin Code</label>
+        <div>
+          <input type="text" />
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Qualification Details</legend>
+      <div class="personal-inner">
+        <label for="sr">Sr No.</label>
+        <div class="personal-inner">
+          <label for="">Qualification</label>
+        </div>
+        <div class="personal-inner">
+          <label for="">Board/University</label>
+        </div>
+        <div class="personal-inner">
+          <label for="">Passing Year</label>
+        </div>
+        <div class="personal-inner">
+          <label for="">Max Marks</label>
+        </div>
+        <div class="personal-inner">
+          <label for="">Mark Obtain</label>
+        </div>
+        <div class="personal-inner">
+          <label for="">Percentage</label>
+        </div>
+      </div>
+      <div class="personal-inner">
+        <div>1</div>
+        <div>
+          <select name="" id="">
+            <option value="">--select--</option>
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="graduation">B.tech</option>
+            <option value="mtech">M.tech</option>
+          </select>
+        </div>
+        <div class="personal-inner"><input type="text" /></div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+      </div>
+      <div class="personal-inner">
+        <div>2</div>
+        <div>
+          <select name="" id="">
+            <option value="">--select--</option>
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="graduation">B.tech</option>
+            <option value="mtech">M.tech</option>
+          </select>
+        </div>
+        <div class="personal-inner"><input type="text" /></div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+      </div>
+      <div class="personal-inner">
+        <div>3</div>
+        <div>
+          <select name="" id="">
+            <option value="">--select--</option>
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="graduation">B.tech</option>
+            <option value="mtech">M.tech</option>
+          </select>
+        </div>
+        <div class="personal-inner"><input type="text" /></div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+      </div>
+      <div class="personal-inner">
+        <div>4</div>
+        <div>
+          <select name="" id="">
+            <option value="">--select--</option>
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="graduation">B.tech</option>
+            <option value="mtech">M.tech</option>
+          </select>
+        </div>
+        <div class="personal-inner"><input type="text" /></div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+        <div class="personal-inner">
+          <input type="number" />
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Language Knowledge</legend>
+      <div class="personal">
+        <label for="language">Language</label>
+        <div>Reading</div>
+        <div>Writing</div>
+        <div>Spoken</div>
+      </div>
+      <div class="personal">
+        <label for="hindi">Hindi</label>
+        <div class="id">
+          <input type="checkbox" />
+        </div>
+        <div>
+          <input type="checkbox" />
+        </div>
+        <div>
+          <input type="checkbox" />
+        </div>
+      </div>
+      <div class="personal">
+        <label for="English">English</label>
+        <div>
+          <input type="checkbox" />
+        </div>
+        <div>
+          <input type="checkbox" />
+        </div>
+        <div>
+          <input type="checkbox" />
+        </div>
+      </div>
+      <div class="personal">
+        <label for="Urdu">Urdu</label>
+        <div>
+          <input type="checkbox" />
+        </div>
+        <div>
+          <input type="checkbox" />
+        </div>
+        <div>
+          <input type="checkbox" />
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Identification Details</legend>
+      <div class="identify">
+        <div>
+          <label for="anumber">Aadhar Card Number</label>
+        </div>
+        <input type="number" id="anumber" />
+        <div>
+          <label for="pnumber">PAN Card Number</label>
+        </div>
+        <input type="number" name="pnumber" id="pnumber" />
+      </div>
+      <div class="identify">
+        <div>
+          <label for="Upload Photo">Upload Photo</label>
+        </div>
+        <button type="button">Browse...</button>
+        <span>No File Selected.</span>
+        <div>
+          <label for="Upload Signature">Upload Signature</label>
+        </div>
+        <button type="button">Browse..</button><span>No File Selected.</span>
+        
+        
+      </div>
+    </fieldset>
+    <div align="center" id="bt"><button>Submit</button> <button>Back</button></div>
+  </body>
+</html>
