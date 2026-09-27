@@ -10,6 +10,7 @@ justify-content: space-between;
  align-items: center; 
 position: sticky;
 top: 9px;
+z-index: 99;
 }
 #menu-items{
     display: flex;
@@ -53,4 +54,25 @@ a{
 a:hover{
     background-color:aquamarine;
     color: brown;
+}
+#section1{
+    display: flex;
+    gap: 20px;
+}
+#ricr-img-div{
+    widht:500px;
+    height: 300px;
+    position: relative;
+
+}
+#ricer-img{
+    width: fit;
+    height: inherit;
+}
+#read-more,
+#learn-more
+{
+    padding:5px 10px;
+    background: rgb(249 135 135 );
+    border: 1px solid red;
 }

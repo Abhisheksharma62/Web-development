@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU+Guides&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: "Playwrite CU Guides", cursive;
+}
+.subheading{
+    font-size: x-large;
+    font-weight: 700;
+    font-style: italic;
+}
+#sp{
+font-weight: 400;
+color: blueviolet;
+text-decoration: underline;
+}
+main{
+    margin-top:10px ;
+}
+
+ul{
+    margin-left: 20px;
+    list-style: "😄 ";
+list-style-image: url();
+    padding: 12px;
+}
+ol{
+    margin-left: 20px;
+    list-style: lower-greek;
+}
+footer{
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+/* ol::first-line{
+background-color: brown;
+} */
+#section1{
+
+}
