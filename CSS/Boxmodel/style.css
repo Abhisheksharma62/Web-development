@@ -3,8 +3,8 @@
 
 }
 #a{
-    width: 500px;
-    border: 1px solid rebeccapurple;
+    /* width: 500px;
+    border: 1px solid rebeccapurple; */
 }
 #h{
     width: 200px;
@@ -67,7 +67,7 @@ background-color: darkseagreen;
 }
 #b{
     
-   text-decoration: dashed;
+   /* text-decoration: dashed; */
     background-color: aqua;
     text-align: center;
      width: 100%;
@@ -83,5 +83,5 @@ background-color: darkseagreen;
     /* justify-content: baseline; */
     /* justify-content: space-between; */
     /* justify-content: space-around;
-align-items: center; */
+align-items: center; 
 } */

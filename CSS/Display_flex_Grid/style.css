@@ -66,6 +66,10 @@ align-items: center;
     padding: 5px;
      align-items: center;
 }
+.identify1{
+  display: grid;
+}
+
 .personal-inner{
     display: grid;
      grid-template-columns:100px 120px 140px 130px 150px 150px 170px;
@@ -81,7 +85,4 @@ align-items: center;
 }
 .id{
  margin-right: 15px;
-}
-legend{
-text-align: ;
 }

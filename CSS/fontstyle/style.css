@@ -21,12 +21,18 @@ text-decoration: underline;
 main{
     margin-top:10px ;
 }
-
+section{
+    padding:20px;
+}
 ul{
     margin-left: 20px;
     list-style: "😄 ";
 list-style-image: url();
     padding: 12px;
+}
+.pointer  {
+  font-size: larger;
+  font-weight: 700;
 }
 ol{
     margin-left: 20px;
