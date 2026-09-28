@@ -66,18 +66,37 @@ a:hover{
 
 }
 #ricer-img{
-    width: fit;
-    height: inherit;
+    /* width: fit;
+    height: inherit; */
 }   
 #read-more,
 #learn-more
 {
     padding:5px 10px;
-    background: rgb(249 135 135 );
+    background-color: rgb(3, 162, 64);
     border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
 }
 #learn-more {
   position: absolute;
   bottom: -435px;
   left: 45%;
+}
+#leran-more:hover,#read-more:hover{
+    background-color: rgb(56, 3, 162);
+   color: rgb(216, 239, 11);
+    
+}
+#learn-more:active{
+    background-color: rgb(245, 101, 12);
+}
+/* #read-more:hover{
+    background-color: rgb(56, 3, 162);
+   color: rgb(216, 239, 11);
+    
+} */
+#read-more:active{
+    background-color: rgb(245, 101, 12);
 }

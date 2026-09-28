@@ -13,10 +13,11 @@
     font-weight: 700;
     font-style: italic;
 }
-#sp{
-font-weight: 400;
-color: blueviolet;
-text-decoration: underline;
+
+#description span {
+  font-weight: 400;
+  color: green;
+  text-decoration: underline;
 }
 main{
     margin-top:10px ;
@@ -31,13 +32,72 @@ list-style-image: url();
     padding: 12px;
 }
 .pointer  {
+ 
   font-size: larger;
   font-weight: 700;
+  font-family: "Shadows Into Light", cursive;
 }
-ol{
-    margin-left: 20px;
+#section2 {
+  ol {
+    margin-left: 30px;
     list-style: lower-greek;
+  }
+
+  li::first-letter {
+    font-size: xx-large;
+  }
+
+   ol li:first-child {
+    background-color: red;
+  }
+  ol li:last-child {
+    background-color: rgb(9, 255, 0);
+  }
 }
+#section3 {
+  ol {
+    margin-left: 30px;
+    list-style: lower-roman;
+    line-height: 50px;
+  }
+
+  ol li:nth-child(even) {
+    background-color: rgb(201, 205, 3);
+  }
+  ol li:nth-child(odd) {
+    background-color: rgb(244, 246, 166);
+  }
+}
+#section4 {
+  table {
+    border-collapse: collapse;
+  }
+
+  caption {
+    color: #0147f9;
+    font-size: larger;
+    font-weight: 800;
+    font-variant-caps: all-petite-caps;
+  }
+  td,
+  th {
+    border: 1px solid #000;
+    padding: 3px 6px;
+  }
+
+  thead {
+    background-color: #0147f9;
+    color: aliceblue;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #dbeff6;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #b0e5f8;
+  }
+}
+
 footer{
     background-color: darkblue;
     color: aliceblue;
@@ -47,9 +107,9 @@ footer{
     position: fixed;
     bottom: 0;
 }
-/* ol::first-line{
-background-color: brown;
-} */
-#section1{
-
+#lorem-paragraph {
+  line-height: 30px;
+  word-spacing: 20px;
+  letter-spacing: 10px;
 }
+
