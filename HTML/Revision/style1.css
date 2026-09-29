@@ -1,23 +1,49 @@
-*{
-    
+body{
+
+    text-align: center;
 }
 h1{
 color:blue;
-text-align: center;
+margin-bottom: 25px;
+
 }
-.hi{
+/* .hi{
     border-radius: 25px;
     border-color: blue;
     border-top-color:magenta;
     border-bottom-color: blanchedalmond;
-}
-.cow{
-     
+} */
+/* .cow{
+     marign-left:40px;
+     marign-top:40px;
      text-align: center;
-     border: ;
-     cellspacing: 10px;
-     cellpadding:16px;
+     border:3px solid black;
      width: 50%;
+     border-radius: 25px;
+ border-top-color:magenta;
+    border-bottom-color: blanchedalmond;
 
+} */
+ table{
+    width: 600px;
+    height: 250px;
+    margin:auto;
+    border: 4px solid seagreen;
+    border-radius: 20px;
+    padding: 10px;
+border-top-color: blue;
+border-bottom-color: aquamarine;
+ }
+td,th{
+    border: 1px solid black;
+    padding: 5px;
+   text-align: center;
+
+}
+th{
+    font-weight: bold;
+}
+a{
+    color: black;
 }
 
