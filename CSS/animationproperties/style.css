@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#daba{
+    height: 70px;
+    width: 80px;
+    background-color: blue;
+    border: 1px solid black;
+    position:absolute;
+  
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: abhi 5s 2;
+}
+@keyframes abhi{
+    0%{
+ transform: rotateZ(36000deg);
+    top: 0;
+    left: 0;
+    background-color: blue;       
+    }
+    25% {
+        top: 0;
+        left:500px ;
+    }
+     75% {
+    top: 500px;
+    left: 0;
+    background-color: yellow;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-color: blue;
+  }
+
+}
