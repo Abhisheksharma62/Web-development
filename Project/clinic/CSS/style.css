@@ -400,6 +400,20 @@ font-weight: 700;
     }
  }
  
+ .btn{
+    transition: transform 0.3s ease;
+ }
+ .btn:hover{
+    transform: translateY(-5px);
+ }
+ .btn-outline{
+     transition: transform 0.3s ease;
+ }
+ .btn-outline:hover{
+     transform: translateY(-5px);
+ }
+ 
+
 .btn{
     margin-top: 20px;
     padding: 1rem 1.5rem;
