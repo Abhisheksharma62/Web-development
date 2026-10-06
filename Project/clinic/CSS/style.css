@@ -48,6 +48,26 @@ nav{
     display: flex;
     align-items: center;
    gap:30px;
+   a{
+    position: relative;
+    /* display: inline-block; */
+    text-decoration: none;
+   }
+   a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: blue;
+    transition: width 0.3s ease;
+   }
+   a:hover::after{
+    width: 100%;
+   }
+
+  
 }
 nav a{
     text-decoration: none;
@@ -55,22 +75,43 @@ nav a{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif; 
 }
-nav a:hover{
+/* nav a:hover{
     color: rgb(74, 74, 250);
     text-decoration: underline;
     text-underline-offset: 9px;
-}
+} */
+
+
 /* nav a:active{
     color: rgb(250, 5, 185);
     font-weight: bold;
 } */
 nav a.home{
     color: rgb(74, 74, 250);
-    
+    position: relative;
     text-decoration: underline;
     text-underline-offset:9px;
       text-decoration-thickness: 2px;
+     
 }
+
+  nav a.home::after{
+   content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: blue;
+    transition: width 0.3s ease;
+   }
+  nav a.home:hover{
+    text-decoration: none;
+  }
+  nav a.home:hover::after{
+    width: 100%;
+  }
+
 /* nav a.home:active{
     color: rgb(250, 5, 185);
     font-weight: bold;
@@ -830,7 +871,10 @@ letter-spacing: 1px;
     img{
        border-radius: 10px; 
        object-fit: cover;
+       
     }
+   
+ 
     margin-top: 20px;
   width: 508px;
   height: 290px;
@@ -925,7 +969,7 @@ letter-spacing: 1px;
 
     background: #ffffff;
 
-    /* border: 1px solid #efebeb; */
+   
 
     border-radius: 10px;
     text-align: center;
@@ -1326,7 +1370,7 @@ font-weight: 200;
                 font-size: 13px;
                 margin-left: -52px;
             }
-        
+      
     }
     .specialty-content4{
         margin-top: 15px;
