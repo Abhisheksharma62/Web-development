@@ -27,16 +27,32 @@
         position: absolute;
         height: 100%;
         width: 100%;
-        border: 3px solid #1bb809;
+        /* border: 3px solid #1bb809; */
         top: 0;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .hero-inner{
-        border:3px solid red ;
+        /* border:3px solid red ; */
 display: flex;
 flex-direction: column;
 width: 50%;
 gap: 30px;
     }
 }
+button{
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform: translateY(-5px);
+}
+button:active{
+    transform: translate(2px,2px);
+}
+
+/* <!---second method---> */
+/* button:hover{
+      transition: transform 0.3s ease;
+      transform: translateY(-5px);
+} */
