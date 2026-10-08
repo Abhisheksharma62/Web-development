@@ -17,6 +17,13 @@ body{
     height: 38px;
    
 }
+.log{
+    font-size: 34px;
+    font-weight: 600;
+    color: #29313d;
+    /* color: black; */
+   
+}
 #contact{ 
     /* margin-bottom: 5px; */
     margin-right:10px ;
