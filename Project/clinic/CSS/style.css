@@ -1469,6 +1469,8 @@ font-weight: 200;
     }
     
  }
+
+ /* <!---section5---> */
  .doctor-title {
     /* margin-bottom: 50px; */
    margin-top: 60px;
@@ -1512,4 +1514,51 @@ background-color: #065eec;
     max-width: 650px;
     line-height: 1.7;
     text-align: center;
+}
+.search-section{
+.input-group{
+    margin-top: 30px;
+    display: flex;
+    border: 2px solid rgb(249, 249, 249);
+    padding-left: 60px;
+    width: 650px;
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    gap: 98px;
+    .input-wrapper{
+        margin-left: -45px;
+        
+    }
+    .form-control{
+        border: none;
+    }
+    .form-select{
+        border: none;
+    }
+    .search-btn{
+        border-radius: 50px;
+        border: none;
+        background-color: #065eec;
+        padding-left: 20px;
+         padding-right: 10px;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         height: 50px;
+    }
+}
+.search-title{
+    font-size: 39px;
+    font-weight: 200;
+   text-align: center;
+   margin-top: 60px;
+   /* border: 1px solid red; */
+   color: #777777;
+}
+.search-subtitle{
+    margin-top: 10px;
+    text-align: center;
+    color: #777777;
+}
 }
