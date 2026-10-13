@@ -14,3 +14,10 @@ jor(p,q);
  }
  
  sum(5,6,add);
+
+
+ console.log(name);
+ var name="Abhi";
+
+console.log(a);
+var a=10;
