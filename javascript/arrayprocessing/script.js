@@ -8,14 +8,13 @@ arry.forEach(element => {
 
 const ar2=["Apple",2.5,99,"Himachal","a"];
 var f=ar2.filter((item)=>
-
+ 
     item!==99
 );
 console.log("f=",f);
 
 var f1=ar2.find((item)=> item===99);
 console.log("f1=",f1);
-
 var fix=ar2.findIndex((item)=> item===99);
 console.log("fix=",fix);
 
