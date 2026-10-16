@@ -13,16 +13,25 @@ body{
     background-color: rgb(74, 74, 250);
     color: white;
     /* border: 1px solid black; */
-    padding: 6px 50px;
+    padding: 9px 50px;
     height: 38px;
-   
+ #number{
+    margin-left: 10px;
+ }
 }
+
 #contact{ 
     /* margin-bottom: 5px; */
     margin-right:10px ;
     margin-left: 20px;
    
     /* border: 1px solid black; */
+    color: white;
+    text-decoration: none;
+
+}
+#contact:hover{
+    text-decoration: underline;
 }
 
  header{
