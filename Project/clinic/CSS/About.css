@@ -15,7 +15,9 @@ body{
     /* border: 1px solid black; */
     padding: 6px 50px;
     height: 38px;
-   
+   #number {
+        margin-left: 10px;
+    }
 }
 .log{
     font-size: 34px;
@@ -25,11 +27,17 @@ body{
    
 }
 #contact{ 
-    /* margin-bottom: 5px; */
-    margin-right:10px ;
+   
+    
+       margin-right: 10px;
     margin-left: 20px;
    
-    /* border: 1px solid black; */
+    color: white;
+    text-decoration: none;
+    
+}
+#contact:hover {
+    text-decoration: underline;
 }
 
  header{
