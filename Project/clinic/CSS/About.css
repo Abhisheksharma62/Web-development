@@ -14,12 +14,23 @@ body{
     color: white;
     /* border: 1px solid black; */
 
-    padding: 6px 50px;
+    padding: 9px 50px;
     height: 38px;
   
    #number {
         margin-left: 10px;
        
+    }
+}
+@media screen and (max-width:800px) {
+    .header1{
+        background-color: green;
+    }
+}
+@media screen and (max-width:587px){
+    .header1{
+        width:570px ;
+padding: 9px 10px;
     }
 }
 .log{
@@ -239,4 +250,16 @@ border-radius:4px;
    .linkedin{
     color: rgb(199, 194, 194);
    }
+}
+@media screen and (max-width:1000px)
+{
+    .social-links{
+        margin-left: 650px;
+    }
+}
+@media screen and (max-width:538px)
+{
+    .social-links{
+        margin-left: 410px;
+    }
 }
