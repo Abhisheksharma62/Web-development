@@ -23,23 +23,8 @@ body{
     }
 }
 
-/* @media screen and (max-width:538px){
-    .header1{
-        
-padding: 9px 10px;
- background-color: green;
-    }
-} */
-@media screen and (max-width:538px){
-    
-.log{
-        font-size:23px;
-            color: rebeccapurple;
-            margin-left: -6px;
-    }
-    
-    
-}
+
+
 #contact{ 
  
     
@@ -274,7 +259,7 @@ border-radius:4px;
 }
 
 /* Mobile screen */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 385px) {
     header {
         width: 100%;
         margin-left: 0;
@@ -321,7 +306,15 @@ border-radius:4px;
     }
 }
 
-@media screen and (max-width: 538px) {
+@media screen and (max-width: 385px) {
+    header{
+        .log{
+        font-size:22px;
+           font-weight: 600;
+    color: #29313d;
+            margin-left: -6px;
+    }
+    }
     .header1 {
         width: 100%;
         padding: 9px 10px;
@@ -346,14 +339,19 @@ border-radius:4px;
     color: white;
     text-decoration: none;
 }
+
+
+}
+
+
+
 .log{
+
     font-size: 34px;
     font-weight: 600;
     color: #29313d;
     
    
-}
-
 }
 
 
