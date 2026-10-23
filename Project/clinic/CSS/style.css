@@ -239,24 +239,12 @@ border-bottom-color: #05f08a; */
     margin-top: -31px;
     font-weight: 500;
 }
-@media screen and(max-width:385px) {
-    .icon{ 
-        display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.5rem 1rem;
-    margin-left: 42px;
-    margin-top: -31px;
-    font-weight: 500;
-}
-  
-}
-
 #item1 {
     padding-left: 20px;
     width: 130px;
     margin-left: 4px;
 }
+
 
 #item2 {
     padding-left: -2px;
@@ -283,6 +271,13 @@ border-bottom-color: #05f08a; */
     font-weight: 400;
 
     padding: 16px 9px;
+}
+@media screen and(max-width: 385px) {
+    
+        .icon-item{
+        }
+
+    
 }
 
 .page {
@@ -2170,6 +2165,7 @@ gap: 50px;
 
     .menu-toggle {
         display: block;
+        margin-right: -18px;
     }
 
     nav {
@@ -2224,7 +2220,7 @@ gap: 50px;
         font-size:22px;
            font-weight: 600;
     color: #29313d;
-            margin-left: -6px;
+            margin-left: 9px;
     }
     }
     .header1 {
@@ -2251,12 +2247,7 @@ gap: 50px;
     color: white;
     text-decoration: none;
 }
-
-
 }
-
-
-
 .log{
 
     font-size: 34px;
