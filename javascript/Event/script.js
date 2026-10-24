@@ -36,6 +36,6 @@ document.getElementById("nameSubmit").addEventListener("click",()=>{
     
 });
 document.getElementById("fullName").addEventListener("keydown",(e)=>{
-   ( e.key==="Enter") &&
+    e.key==="Enter" &&
     console.log(document.getElementById("fullName").value.trim());
 });
