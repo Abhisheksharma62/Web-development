@@ -16,10 +16,12 @@ showAttBtn.addEventListener("click",()=>{
 
 stopAssBtn.addEventListener("click",()=>{
 
-    showAssBtn.removeEventListener("click",ShowAssingment);
+    // showAssBtn.removeEventListener("click",ShowAssingment);
 
     assPara.textContent="Your assignment Notification is Stopped";
     attPara.textContent="Your attendence stopped";
 });
+
+const parent=document.getElementById("outer");
 
 
