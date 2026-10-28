@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Question 1</h1>
+  <h2 class="text-info">Student Keyboard Activity</h2>
+  <input class="form-text" type="text" name="" placeholder="Click and Press a Key"  value="" id="input" onkeydown="down()" onkeyup="up()">
+  <p id="press" >Press a key to begin</p>
+  <p class="text-danger"> Note:-keydown occurs when a key is pressed.
+        keyup occurs when a key is released.</p>
+
+        <br><br>
+        <hr>
+        <h1>Question 2.</h1>
+   <h2>RICR Course Portal</h2>
+   <p>Enter the text and press or release any key:</p>
+
+    <input
+        type="text"
+        placeholder="Type something here"
+        onkeydown="showKeyDown()"
+        onkeyup="showKeyUp()"
+    >
+
+    <p id="keyDownStatus">Waiting for a key press...</p>
+
+    <p id="keyUpStatus">Waiting for a key release...</p>
+
+    <h3>About Keyboard Events</h3>
+
+    <p>
+        Keyboard events allow JavaScript to respond when users
+        press or release keys on the keyboard.
+    </p>
+
+    <p>
+        <strong>Note:</strong> The keypress event is an older,
+        deprecated keyboard event. Use keydown and keyup
+        in new code instead.
+    </p>
+
+    <!--Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+   <script src="script.js"></script>
+  </body>
+</html>
