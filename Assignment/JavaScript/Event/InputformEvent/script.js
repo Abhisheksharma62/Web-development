@@ -10,3 +10,11 @@ name.textContent=studentName.value;
 courseName.addEventListener("input", function(){
     course.textContent=courseName.value;
 });
+
+const form=document.getElementById("registration");
+const message=document.getElementById("message");
+
+form.addEventListener("submit",function(event){
+    event.preventDefault();
+    message.textContent="Enrollment form submitted."
+})
