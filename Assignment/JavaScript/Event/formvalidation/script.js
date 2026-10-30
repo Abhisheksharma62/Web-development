@@ -7,7 +7,7 @@ function login(){
 }
 
 const loginForm=document.getElementById("loginForm");
-const loginFormDataJSON={};
+// const loginFormDataJSON={};
 loginForm.addEventListener("submit",(e) =>{
 e.preventDefault();
 console.log("form submitted");
@@ -19,6 +19,8 @@ const PS=loginFormData.get("password");
 
 console.log(UN,PS);
 // loginFormData.forEach((value,key)=> console.log(key,":",value));
-loginFormData.forEach((value,key)=> (loginFormDataJSON[key]=value));
+// loginFormData.forEach((key,value)=> (loginFormDataJSON[key] = value));
+// console.log(loginFormDataJSON);
 });
+
 
