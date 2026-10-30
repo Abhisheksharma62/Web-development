@@ -33,7 +33,17 @@ const student=[
 // console.log(student[1]);
 // delete student[0].name;
 // console.log(student[0]);
-student[1].projects[1].projectName="Chartbot";
-console.log(student[1]);
+// student[1].projects[1].projectName="Chartbot";
+// console.log(student[1]);
 
+// const somedata={
+//      name:"Aman",
+//     age:29,
+//     gender:"male",
+// };
+// const JsonTostring=JsonTostring(somedata);
+// console.log(JsonTostring);
 
+var studentName="Abhi";
+var marks=77;
+console.log("Student with Name"+studentName,"scored"+marks)
